@@ -72,7 +72,7 @@
     }
 
   - Hasil Test Endpoint dengan Postman
-    ![2024-05-17 (2)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/a28ff22c-837e-4942-808e-aeed1adec86c)
+      ![2024-05-17 (1)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/683c6b9e-7b96-482b-aa1d-2335e84c5134)
 
 3. Logout Pengguna
   - URL: http://localhost:3000/auth/logout
@@ -83,6 +83,8 @@
       "message": "Logout berhasil"
     }
 
-    - Hasil Test Endpoint dengan Postman
-      ![2024-05-17 (1)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/683c6b9e-7b96-482b-aa1d-2335e84c5134)
+  - Hasil Test Endpoint dengan Postman
+    ![2024-05-17 (2)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/a28ff22c-837e-4942-808e-aeed1adec86c)
+
+    
 
