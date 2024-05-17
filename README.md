@@ -6,6 +6,9 @@
 - express-session: Middleware untuk mengelola sesi pengguna
 - bcryptjs: Library untuk hashing password
 
+- install dependensi
+  - npm install express body-parser express-session bcryptjs
+
 ## Alur Aplikasi
 ### 1. Registrasi: Pengguna dapat mendaftar dengan username dan password.
   - Endpoint: POST /auth/register
