@@ -4,7 +4,7 @@ const session = require('express-session');
 const authRoutes = require('./routes/auth');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use(bodyParser.json());
 app.use(session({
