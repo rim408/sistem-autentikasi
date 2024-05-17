@@ -7,24 +7,24 @@
 - bcryptjs: Library untuk hashing password
 
 ## Alur Aplikasi
-1. Registrasi: Pengguna dapat mendaftar dengan username dan password.
+### 1. Registrasi: Pengguna dapat mendaftar dengan username dan password.
   - Endpoint: POST /auth/register
   - Body: { "username": "user", "password": "pass" }
   - Respon sukses: 201 Registrasi berhasil
   - Respon error: 400 Username sudah digunakan atau 500 Terjadi kesalahan saat melakukan registrasi
 
-2. Login: Pengguna dapat login dengan username dan password yang sudah terdaftar.
+### 2. Login: Pengguna dapat login dengan username dan password yang sudah terdaftar.
   - Endpoint: POST /auth/login
   - Body: { "username": "user", "password": "pass" }
   - Respon sukses: 200 Login berhasil
   - Respon error: 401 Username atau password salah
 
-3. Logout: Pengguna dapat logout dari sesi mereka.
+### 3. Logout: Pengguna dapat logout dari sesi mereka.
   - Endpoint: GET /auth/logout
   - Respon sukses: 200 Logout berhasil
 
 ## Test Endpoint
-1. Registrasi Pengguna
+### 1. Registrasi Pengguna
   - URL: http://localhost:3000/auth/register
   - Method: POST
   - Body:
@@ -49,7 +49,7 @@
     ![2024-05-17](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/2720e231-c174-45dc-809d-5ad873e2bcfd)
  
 
-2. Login Pengguna
+### 2. Login Pengguna
   - URL: http://localhost:3000/auth/login
   - Method: POST
   - Body:
@@ -74,7 +74,7 @@
   - Hasil Test Endpoint dengan Postman
       ![2024-05-17 (1)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/683c6b9e-7b96-482b-aa1d-2335e84c5134)
 
-3. Logout Pengguna
+### 3. Logout Pengguna
   - URL: http://localhost:3000/auth/logout
   - Method: GET
   - Respon sukses:
