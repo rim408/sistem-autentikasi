@@ -8,6 +8,11 @@
 
 - install dependensi
   - npm install express body-parser express-session bcryptjs
+ 
+## Struktur Direktori
+  - models/users.js: Berisi fungsi untuk mengelola data pengguna.
+  - routes/auth.js: Berisi rute untuk autentikasi pengguna.
+  - index.js: File utama untuk menjalankan aplikasi Express.
 
 ## Alur Aplikasi
 ### 1. Registrasi: Pengguna dapat mendaftar dengan username dan password.
