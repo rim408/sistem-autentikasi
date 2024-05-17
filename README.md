@@ -46,4 +46,43 @@
     }
 
   - Hasil Test Endpoint dengan Postman
-    ![2024-05-17](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/492541e6-8783-4d98-9b50-29dae1211b84)
+    ![2024-05-17](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/2720e231-c174-45dc-809d-5ad873e2bcfd)
+ 
+
+2. Login Pengguna
+  - URL: http://localhost:3000/auth/login
+  - Method: POST
+  - Body:
+    json
+    {
+      "username": "username",
+      "password": "password"
+    }
+    
+  - Respon sukses:
+    json
+    {
+      "message": "Login berhasil"
+    }
+    
+  - Respon error:
+    json
+    {
+      "message": "Username atau password salah"
+    }
+
+  - Hasil Test Endpoint dengan Postman
+    ![2024-05-17 (2)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/a28ff22c-837e-4942-808e-aeed1adec86c)
+
+3. Logout Pengguna
+  - URL: http://localhost:3000/auth/logout
+  - Method: GET
+  - Respon sukses:
+    json
+    {
+      "message": "Logout berhasil"
+    }
+
+    - Hasil Test Endpoint dengan Postman
+      ![2024-05-17 (1)](https://github.com/rimbasudarmadi/sistem-autentikasi/assets/113418908/683c6b9e-7b96-482b-aa1d-2335e84c5134)
+
